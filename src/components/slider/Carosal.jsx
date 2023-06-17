@@ -50,7 +50,7 @@ sliderData.map( (n,index)=>     <SwiperSlide key={index}>
     >
       <div
         data-aos="fade-left"
-        className="top-64 space-y-7 right-48 text-left uppercase absolute  "
+        className="bottom-1/4 space-y-7 left-1/2	 text-left uppercase absolute  "
       >
         <h1 className="text-2xl	">{n.smallCaption}</h1>
         <h1 className=" text-7xl my-4 font-bold leading-13	 	">

@@ -50,10 +50,10 @@ sliderData.map( (n,index)=>     <SwiperSlide key={index}>
     >
       <div
         data-aos="fade-left"
-        className="top-96 space-y-12 right-64 text-left uppercase absolute  "
+        className="top-64 space-y-7 right-48 text-left uppercase absolute  "
       >
         <h1 className="text-2xl	">{n.smallCaption}</h1>
-        <h1 className=" text-8xl my-4 font-bold leading-13	 	">
+        <h1 className=" text-7xl my-4 font-bold leading-13	 	">
         {n.bigCaption} <br />Industry
         </h1>
         <button className="bg-np py-4 px-14 text-white">

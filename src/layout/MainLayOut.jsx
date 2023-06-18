@@ -7,7 +7,7 @@ import { Outlet } from 'react-router-dom';
 const MainLayOut = () => {
     return (
         <div>
-         <div className=' relative  -mb-48 z-10'>
+         <div className=' relative  -mb-52 z-10'>
          <Topbar></Topbar>
             <Header></Header>
             </div>  

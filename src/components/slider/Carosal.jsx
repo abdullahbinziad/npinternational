@@ -37,7 +37,7 @@ const sliderData = [
 ]
 
   return (
-    <div className="-mb-20">
+    <div className="-mb-16 ">
       <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
     {
 sliderData.map( (n,index)=>     <SwiperSlide key={index}>
@@ -50,7 +50,7 @@ sliderData.map( (n,index)=>     <SwiperSlide key={index}>
     >
       <div
         data-aos="fade-left"
-        className="bottom-1/4 space-y-7 left-1/2	 text-left uppercase absolute  "
+        className="bottom-1/4 space-y-7 left-1/2 text-gray-700	 text-left uppercase absolute  "
       >
         <h1 className="text-2xl	">{n.smallCaption}</h1>
         <h1 className=" text-7xl my-4 font-bold leading-13	 	">

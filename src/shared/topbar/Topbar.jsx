@@ -3,8 +3,8 @@ import { CiLocationOn, CiPhone, CiMail,CiFacebook,CiTwitter } from "react-icons/
 
 const Topbar = () => {
   return (
-    <div className="w-5/6 mx-auto mt-6 ">
-      <div className="flex justify-between items-center">
+    <div className="w-3/4 mx-auto ">
+      <div className="flex justify-between mt-2 items-center">
         <div className="flex items-center">
           <CiLocationOn /> <p>Los Angeles Gournadi, 1230 Bariasl</p>
         </div>
